@@ -1,7 +1,8 @@
 # searchlightsystems.com
 
 One-page site for SearchLight Systems (Andrew Duquet). Plain HTML and CSS, no
-build step: `index.html`, `styles.css`, `assets/`. `CNAME` is for GitHub Pages.
+build step: `index.html`, `styles.css`, `assets/`. Hosted on GitHub Pages from `main`; the custom domain is set in the
+repo's Pages settings at go-live (see GO-LIVE.md).
 
 Preview locally:
 
@@ -26,15 +27,10 @@ compared with `dns-baseline-2026-10-27.txt`.
 
 1. **Headshot.** Square photo, at least 600x600, saved as `assets/andrew.jpg`.
    It replaces the "AD" monogram (see the comment in `index.html`).
-2. **Copy review**, especially lines that describe how he works rather than
-   bare facts: "no junior recruiters and no hand-offs", the four "For
-   engineers" promises, the four "How I work" steps, and the short contract
-   recruiting description.
-3. **LinkedIn link**: `https://www.linkedin.com/in/andrewduquet` is used, taken
-   from his email signature standard. Confirm it is right.
-4. **Testimonials** (optional): exact quotes with permission to use them, and
+2. **Testimonials** (optional): exact quotes with permission to use them, and
    how each person should be credited. None are on the site until then.
-5. **Clients or companies to name** (optional): only ones he explicitly
+3. **Clients or companies to name** (optional): only ones he explicitly
    approves.
-6. **Location** (optional): the site names none. Add one if he wants it.
-7. **Go-ahead** to create the public GitHub repo and turn on Pages.
+4. **Location** (optional): the site names none. Add one if he wants it.
+
+Copy and LinkedIn link reviewed and approved by Andrew, 2026-10-27.

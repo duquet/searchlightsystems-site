@@ -24,20 +24,17 @@ One thing to know: on a free GitHub account, Pages needs a **public**
 repository. The site is public anyway, and the repo holds only these files,
 no `.env`, database or candidate data.
 
-## Step 1. Publish the site on GitHub (needs Andrew's OK)
+## Step 1. Publish the site on GitHub (done 2026-10-27)
 
-1. Create a public repo, for example `duquet/searchlightsystems-site`.
-2. Push this folder to it (`main` branch).
-3. Repo Settings > Pages: Source "Deploy from a branch", branch `main`, folder `/ (root)`.
-4. Custom domain: `www.searchlightsystems.com` (the `CNAME` file in this repo
-   already says this). GitHub then serves the apex as a redirect to `www`.
-5. Optional but recommended: GitHub profile Settings > Pages > "Add a domain"
-   to verify `searchlightsystems.com`. GitHub shows one new TXT record named
-   `_github-pages-challenge-duquet`; adding it is a new record and does not
-   touch any existing TXT record.
-
-The site is now at `https://duquet.github.io/searchlightsystems-site/` for a
-final look before DNS changes.
+- Public repo: https://github.com/duquet/searchlightsystems-site
+- Pages serves `main` at https://duquet.github.io/searchlightsystems-site/
+- The custom domain is NOT set yet, on purpose: setting it now would redirect
+  the github.io preview to www.searchlightsystems.com, which doesn't work
+  until the DNS change. It is set in Step 3.
+- Optional but recommended, any time: GitHub profile Settings > Pages >
+  "Add a domain" to verify `searchlightsystems.com`. GitHub shows one NEW TXT
+  record named `_github-pages-challenge-duquet` to add at GoDaddy. Adding it
+  does not change any existing TXT record.
 
 ## Step 2. DNS changes at GoDaddy (Andrew makes these)
 
@@ -81,9 +78,11 @@ Optional IPv6 (fine to skip): AAAA `@` to 2606:50c0:8000::153,
 - The old GoDaddy mail CNAMEs (`e`, `imap`, `mail`, `mobilemail`, `pda`,
   `pop`, `smtp`, `webmail`). They are unused but harmless; leave them for now.
 
-## Step 3. Turn on HTTPS
+## Step 3. Set the custom domain, then turn on HTTPS
 
-Back in the repo's Settings > Pages, wait until the DNS check passes (minutes
+Right after the DNS change, in the repo's Settings > Pages, enter
+`www.searchlightsystems.com` as the Custom domain and Save (or tell Claude to
+set it). GitHub then serves the apex as a redirect to `www`. Wait until the DNS check passes (minutes
 to an hour), then tick **Enforce HTTPS**. The certificate can take up to an
 hour to appear after DNS is right.
 
