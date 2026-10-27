@@ -25,12 +25,12 @@ compared with `dns-baseline-2026-10-27.txt`.
 
 ## Still needed from Andrew
 
-1. **Headshot.** Square photo, at least 600x600, saved as `assets/andrew.jpg`.
-   It replaces the "AD" monogram (see the comment in `index.html`).
-2. **Testimonials** (optional): exact quotes with permission to use them, and
+1. **Energy and Sensors**: a line each on the roles he places there.
+2. **Non-engineering roles**: which kinds to name on the "Beyond engineering" card.
+3. **Testimonials** (optional): exact quotes with permission to use them, and
    how each person should be credited. None are on the site until then.
-3. **Clients or companies to name** (optional): only ones he explicitly
+4. **Clients or companies to name** (optional): only ones he explicitly
    approves.
-4. **Location** (optional): the site names none. Add one if he wants it.
+5. **Location** (optional): the site names none. Add one if he wants it.
 
 Copy and LinkedIn link reviewed and approved by Andrew, 2026-10-27.
