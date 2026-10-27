@@ -1,0 +1,38 @@
+DNS baseline for searchlightsystems.com, captured 2026-10-27 before any change.
+
+# Website
+== A searchlightsystems.com
+13.248.243.5
+76.223.105.230
+
+== AAAA searchlightsystems.com
+
+== CNAME www.searchlightsystems.com
+searchlightsystems.com.
+
+# Email (must not change)
+== MX searchlightsystems.com
+1 aspmx.l.google.com.
+10 alt3.aspmx.l.google.com.
+10 alt4.aspmx.l.google.com.
+5 alt1.aspmx.l.google.com.
+5 alt2.aspmx.l.google.com.
+
+== TXT searchlightsystems.com
+"google-site-verification=Xnq60sp9wRHg9MwDH3kBMaB-GHMr7OAeBfcnLbIe12M"
+"google-site-verification=YPC0496zV-bsZ0q2j7Wdg8ykR7Y_C2s8gL_baHRnT0E"
+"v=spf1 include:dc-aa8e722993._spfm.searchlightsystems.com ~all"
+
+== TXT dc-aa8e722993._spfm.searchlightsystems.com
+"v=spf1 include:_spf.google.com ~all"
+
+== TXT google._domainkey.searchlightsystems.com
+"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsvPDEYcYTu6fThV0ZvyN+RkT0jesMbgNv1H6sPVd5TViM5LwP0VSNxLoxnWUmCiKirS/9N9TKEd+jRavkLf8cG7yXbh1gLyvR1ZuYbAw6Pxvn1XdZwq2LKZ0GNiQdXrRNdxF/heZGBohl3O6q+QMYv3GG4FfK4AMqojAAffq9PPnfzQJMag3Ml9d1jp4s1l7a" "7fTGnd4R4UiZ4Ch84PxdlTkDpNv2bWGhLymvlC0OAPLmOzDvE8jiekj27hVFnNh1FvQvNELI/ijoyM5ge7ppRKXuYOep0NgSvpvN+lNmlckaGxQspezB2vqEvoGeisIJrudTzqee5VtmidD/AEKHQIDAQAB"
+
+== TXT _dmarc.searchlightsystems.com
+"v=DMARC1; p=none; rua=mailto:andrew@searchlightsystems.com"
+
+== NS searchlightsystems.com
+ns71.domaincontrol.com.
+ns72.domaincontrol.com.
+
