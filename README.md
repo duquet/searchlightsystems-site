@@ -1,8 +1,8 @@
 # searchlightsystems.com
 
 One-page site for SearchLight Systems (Andrew Duquet). Plain HTML and CSS, no
-build step: `index.html`, `styles.css`, `assets/`. Hosted on GitHub Pages from `main`; the custom domain is set in the
-repo's Pages settings at go-live (see GO-LIVE.md).
+build step: `index.html`, `styles.css`, `assets/`. Live at https://www.searchlightsystems.com, hosted on GitHub Pages from
+`main`. Pushing to `main` publishes within a minute or two.
 
 Preview locally:
 

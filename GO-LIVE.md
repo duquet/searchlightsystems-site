@@ -1,7 +1,11 @@
 # Putting www.searchlightsystems.com live
 
-Nothing here has been done yet. Every step below is for Andrew to do himself,
-or to tell Claude to do, after he has said go.
+**Status: LIVE since 2026-10-27.** https://www.searchlightsystems.com serves
+the site over HTTPS (Let's Encrypt certificate for both names, renewed by
+GitHub automatically); the apex and both http URLs 301 to it. Email records
+checked identical to `dns-baseline-2026-10-27.txt` after the switch.
+
+The steps below are kept as the record of what was done.
 
 ## Recommendation: GitHub Pages (free), DNS stays at GoDaddy
 
