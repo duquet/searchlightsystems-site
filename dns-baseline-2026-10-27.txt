@@ -1,4 +1,4 @@
-DNS baseline for searchlightsystems.com, captured 2026-10-27 before any change.
+DNS baseline for searchlightsystems.com, refreshed 2026-10-27 after the SPF update, before any website change.
 
 # Website
 == A searchlightsystems.com
@@ -21,7 +21,7 @@ searchlightsystems.com.
 == TXT searchlightsystems.com
 "google-site-verification=Xnq60sp9wRHg9MwDH3kBMaB-GHMr7OAeBfcnLbIe12M"
 "google-site-verification=YPC0496zV-bsZ0q2j7Wdg8ykR7Y_C2s8gL_baHRnT0E"
-"v=spf1 include:dc-aa8e722993._spfm.searchlightsystems.com ~all"
+"v=spf1 include:_spf.google.com include:dc-aa8e722993._spfm.searchlightsystems.com ~all"
 
 == TXT dc-aa8e722993._spfm.searchlightsystems.com
 "v=spf1 include:_spf.google.com ~all"

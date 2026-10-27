@@ -72,12 +72,14 @@ Optional IPv6 (fine to skip): AAAA `@` to 2606:50c0:8000::153,
 **Do not touch anything else.** In particular leave alone:
 
 - All 5 **MX** records (aspmx.l.google.com and the alt ones): Google Workspace mail.
-- **TXT @** `v=spf1 include:dc-aa8e722993._spfm...`: SPF.
+- **TXT @** `v=spf1 include:_spf.google.com include:dc-aa8e722993._spfm...`: SPF.
 - **TXT** `dc-aa8e722993._spfm`: the record SPF points to.
 - **TXT** `google._domainkey`: DKIM.
 - **TXT** `_dmarc`: DMARC.
 - Both **TXT @** `google-site-verification=...` records.
 - The NS and SOA records.
+- The old GoDaddy mail CNAMEs (`e`, `imap`, `mail`, `mobilemail`, `pda`,
+  `pop`, `smtp`, `webmail`). They are unused but harmless; leave them for now.
 
 ## Step 3. Turn on HTTPS
 
